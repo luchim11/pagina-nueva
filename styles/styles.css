@@ -1,8 +1,9 @@
 h1 {
     color: aqua;
 }
-body {
-    background-color: #a9a9a9;
+body { 
+    background-image: url("imagenes/familia.png");
+    background-repeat: repeat-x ;
 }
 img {
     width: 200px;
@@ -10,4 +11,4 @@ img {
     border-radius: 15%;
     display:block;
     margin: 12px;
-    }
+}
