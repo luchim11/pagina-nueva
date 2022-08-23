@@ -4,3 +4,10 @@ h1 {
 body {
     background-color: #a9a9a9;
 }
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 15%;
+    display:block;
+    margin: 12px;
+    }
