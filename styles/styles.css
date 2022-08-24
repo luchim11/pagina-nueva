@@ -1,14 +1,49 @@
 h1 {
-    color: aqua;
+    color: aquamarine;
+    text-align: center;
+}
+h2 {
+    color: white;
 }
 body { 
-    background-image: url("imagenes/familia.png");
+   /* background-image: url("imagenes/familia.png");
     background-repeat: repeat-x ;
+    background-position: center center;
+    background-attachment:scroll ;*/
+    background-size: cover; 
+    background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), 
+    url("imagenes/familia.png") repeat-y center 20% fixed;
+
 }
 img {
-    width: 200px;
+    width: 100%;
     height: auto;
     border-radius: 15%;
-    display:block;
-    margin: 12px;
+    /*display:block;
+    margin: 30px;*/
+}
+
+.contenedor{
+    height: 1%;
+    width:100%;
+    border: black 5px dashed;
+    margin:0px auto;
+    background: rgba(5,7,12,0.4);
+    align-items:center;
+
+}
+div{
+   /* display:block;*/
+    float:left;
+    /*width: 250px;
+    height: 350px;/*/
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+  /*  text-align: center ;*/
+    font-size: 30px;
+    margin: 2% auto ;
+    
 }
