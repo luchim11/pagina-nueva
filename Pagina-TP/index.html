@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina CODO-CODO</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./syles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!--header-------------------------------------------------->
+
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./imagenes/codoacodo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+              Conf Bs As
+          </a>
+           
+          <div class="navbar-item">
+            <a class="nav-link active"  href="index.html">La conferencia</a>
+            <a class="nav-link" href="#">Los oradores</a>
+            <a class="nav-link" href="#">El lugar y la fecha</a>
+            <a class="nav-link" href="#">Conviértete en orador</a>
+            <a class="nav-link active-green" href="#"> Comprar Ticket </a>
+  
+          </div>
+        </div>     
+      </nav>
+    </header>
+
+<!--Hawaii-------------------------------------------------->
+
+    <div class="hawai">
+      <div class="texto-hawai">
+        <h1>
+          Conf Bs As
+        </h1>
+        <p> Bs As llega por primera vez a Argentina. Un evento para compartir con <br>
+          nuestra comunidad el conocimiento y experiencia de los expertos que <br>
+          estan creando el futuro de Internet. Ven a conocer a miembors del <br>
+          evento, a otros estudiantes de Codo a Codo y a los oradores de primer<br>
+          nivel que tenemos para ti. Te esperamos!
+        </p>
+      <div class="botones">
+        <button type="button" class="boton">Quiero ser orador </button>
+        <button type="button" class="btn btn-success">Comprar tickets</button>
+      </div>
+        
+
+
+      </div>
+      
+    </div>
+
+<!--Cartas-------------------------------------------------->
+    <div class="oradores">
+      <p class="titulo-carta">
+        CONOCE A LOS <h3>Oradores</h3>
+      </p>
+    </div>
+    <div class="card-group">
+      <!-- Carta de Steve jobs-->
+      <div class="card">
+        <img class="card-img-top" src="./imagenes/steve.jpg" alt="Card image cap">
+        <div class="card-body">
+          <button type="button" class="btn btn-warning">JavaScript</button>
+          <button type="button" class="btn btn-primary">React</button>
+           <h4 class="card-title"> Steve Jobs</h4>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur obcaecati quam qui ea error harum veritatis, sunt perferendis omnis reprehenderit deserunt quo? Eos aliquam, inventore placeat culpa quis minus.
+          </p>
+         </div>
+       </div>
+      <!-- Carta de Bill Gates-->
+      <div class="card">
+        <img class="card-img-top" src="./imagenes/bill.jpg" alt="Card image cap">
+        <div class="card-body">
+          <button type="button" class="btn btn-warning">JavaScript</button>
+          <button type="button" class="btn btn-primary">React</button>
+  
+          <h4 class="card-title"> Bill Gates </h4>
+          <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur obcaecati quam qui ea error harum veritatis, sunt perferendis omnis reprehenderit deserunt quo? Eos aliquam, inventore placeat culpa quis minus.
+          </p>
+        </div>
+      </div>
+      <!-- Carta de Ada Lovelace-->
+      <div class="card">
+        <img class="card-img-top" src="./imagenes/ada.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <button type="button" class="btn btn-secondary">Negocios</button>
+          <button type="button" class="btn btn-danger">React</button> 
+          <h4 class="card-title"> Ada Lovelace </h4>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur obcaecati quam qui ea error harum veritatis, sunt perferendis omnis reprehenderit deserunt quo? Eos aliquam, inventore placeat culpa quis minus.
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+    
+<!--BaAs-Octubre-------------------------------------------------->
+
+    <div class="bsas-octubre">
+      <div class="imagen-honolulu">
+        <img class="imagen" src="./imagenes/honolulu.jpg" alt="Honolulu">
+      </div>
+      <div class="texto">
+        <h2> Bs As - Octubre</h2>
+        <p>Buenos Aries es la provincia y localidad mas grande del estado de ARgentina, en los Estados Unidos. Honolulu es la mas sureña de entre las
+          principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana de la costa sureste de la 
+          isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).
+        </p>
+        <button class="boton">
+          Conocé más
+        </button>
+      </div>
+      
+    </div>
+
+<!--Orador-------------------------------------------------->
+    <div class="orador">
+      <div class="texto-orador">
+        CONVIÉRTETE EN UN <h3> ORADOR </h3>
+        Anótate como orador para dar una <u style="text-decoration:underline dotted"> charla ignite</u>. Cuéntanos de qué quieres hablar!
+        
+      </div>
+      
+      <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+      <input class="form-control" id="apellido" type="text" placeholder="Apellido">
+      <input class="form-control" id="hablar" type="text" placeholder="Sobre qué quieres hablar?">
+      <p class="aclaracion">
+        Recuerda incluir un título para tu charla
+      </p>
+      <button class="btn btn-success" id="btn-enviar"> Enviar </button>
+    </div>
+
+    <footer>
+      <div class="d-flex justify-content-around">
+        <div class="p-2"> Preguntas Frecuentes</div>
+        <div class="p-2"> Contáctnos </div>
+        <div class="p-2"> Prensa</div>
+        <div class="p-2"> Conferencia</div>
+        <div class="p-2"> Términos y condiciones </div>
+        <div class="p-2"> Privacidad </div>
+        <div class="p-2"> Estudiantes </div>
+
+
+      </div>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
