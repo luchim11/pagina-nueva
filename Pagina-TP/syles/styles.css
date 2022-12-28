@@ -3,7 +3,7 @@
     flex-direction: row;
 }
 .navbar-item{
-    color:grey;
+    color:rgb(128, 128, 128);
     display:flex;
     flex-direction: row;
 }
@@ -11,10 +11,10 @@
     margin:0.5rem;
 }
 .nav-link.active{
-    color:white;
+    color:rgb(255, 255, 255);
 }
 .nav-link.active-green{
-    color:green;
+    color:rgb(0, 128, 0);
 }
 /*Hawaii//////////////////////////////////////////////////*/
 .hawai{
@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     text-align: right;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /*Carts///////////////////////////////////////////////*/
@@ -78,15 +78,15 @@
 .texto{
     margin-top: 1%;
     margin-left: 2%;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: small;
 }
 .boton {
     background-color: transparent;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 1%;
     border-radius: 8%;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
    
 }
 
@@ -101,6 +101,7 @@
     margin-bottom: 2%;
 }
 .texto-orador{
+    text-align: center;
     margin-top: 3%;
     grid-column: 3/7;
     font-size: small;
@@ -124,7 +125,7 @@
     text-align: left;
     grid-column: 3/7;
     grid-row: 4;
-    color: grey;
+    color: rgb(128, 128, 128);
     font-size: small;
 }
 #btn-enviar{
@@ -140,5 +141,91 @@
     color: white;
     padding: 2%;
     font-size: small;
+}
+
+
+/* ORADORESSS///////////////////////////////////*/
+
+.cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    margin: 2rem;
+    margin-left: 0;
+    margin-right: 1rem;
+    
+}
+.card-body{
+    padding: 1rem;
+    padding-bottom: 0;
+    margin: 1rem;
+    margin-bottom: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aclaracion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    vertical-align: text-bottom;
+}
+
+#azul{ border-color: rgb(0, 0, 255);}
+#aqua{ border-color: rgb(0, 255, 255);}
+#amarillo{ border-color: rgb(255, 255, 0);}
+
+/*Valor de ticket////////////////////////////////////////*/
+#cantidad{
+    grid-column: 3;
+    grid-row: 4;
+    text-align: left;
+    font-size: 1.5rem;
+}
+#cantidad-place{
+    grid-column: 3/5;
+    grid-row: 5;
+}
+#categoria{
+    grid-column: 5;
+    grid-row: 4;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.custom-select{
+    grid-column: 5/7;
+    grid-row: 5;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.alert-info{
+    grid-column: 3/7;
+    grid-row: 6;
+    text-align: left;
+}
+.btn-success{
+    grid-column: 3/5;
+    grid-row: 7;
+    padding: 1rem;
+    
+}
+#resumen{
+    grid-column: 5/7;
+    grid-row: 7;
+    padding: 1rem;
+    
 }
 
